@@ -1,0 +1,65 @@
+.ui-btn {
+	font-size:1.1em;
+}
+
+@media only screen and (min-device-width: 100px) and (max-device-width:639px){
+	body {
+		font-size:16px;
+	}
+	.ui-header .ui-title{
+		font-size:20px;
+		text-shadow:none;
+	}
+	.ui-listview li h2{
+		font-size:16px;
+		color:blue;
+	}
+	.ui-listview li p{
+		font-size: 14px;
+		color:#457;
+	}
+}
+
+@media only screen and (min-device-width: 640px) and (max-device-width:719px){
+	body {
+		font-size:18px;
+	}
+	.ui-header .ui-title{
+		font-size:16px;
+		text-shadow:none;
+	}
+	.ui-listview li h2{
+		font-size:18px;
+		color:blue;
+	}
+	.ui-listview li p{
+		font-size: 16px;
+		color:#f45;
+	}
+	.ui-listview li img{
+		border:1px solid #f22;
+		margin: 8px 0px 0px 4px;
+	}
+}
+
+@media only screen and (min-device-width: 720px){
+	body {
+		font-size:20px;
+	}
+	.ui-header .ui-title{
+		font-size:20px;
+		text-shadow:none;
+	}
+	.ui-listview li h2{
+		font-size:20px;
+		color:blue;
+	}
+	.ui-listview li p{
+		font-size: 18px;
+		color:#f45;
+	}
+	.ui-listview li img{
+		border:1px solid #08b;
+		margin: 8px 0px 0px 4px;
+	}
+}
